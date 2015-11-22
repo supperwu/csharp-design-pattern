@@ -18,21 +18,18 @@ namespace GangOfFour.Singleton
         {
         }
 
-        public static Singleton Instance
+        public static Singleton CreateInstance()
         {
-            get
+            // Uses lazy initialization.
+            // Note: this is not thread safe.
+            if (_instance == null)
             {
-                // Uses lazy initialization.
-                // Note: this is not thread safe.
-                if (_instance == null)
-                {
-                    _instance = new Singleton();
-                }
-
-                return _instance;
-
+                _instance = new Singleton();
             }
+
+            return _instance;
         }
+
     }
 }
 
