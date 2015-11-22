@@ -34,9 +34,9 @@ namespace GangOfFour.Singleton
         /// <summary>
         /// return instance
         /// </summary>
-        public static T CreateInstance
+        public static T CreateInstance()
         {
-            get { return SingletonCreator.instance; }
+            return SingletonCreator.instance;
         }
 
         class SingletonCreator
