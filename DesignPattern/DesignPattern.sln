@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02FactoryMethod", "02Factor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02FactoryMethodRealWorld", "02FactoryMethodInRealWorld\02FactoryMethodRealWorld.csproj", "{D4554B66-75CE-4DD0-9E51-BCFA81042C0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03AbstractFactory", "03AbstractFactory\03AbstractFactory.csproj", "{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D4554B66-75CE-4DD0-9E51-BCFA81042C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4554B66-75CE-4DD0-9E51-BCFA81042C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4554B66-75CE-4DD0-9E51-BCFA81042C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
