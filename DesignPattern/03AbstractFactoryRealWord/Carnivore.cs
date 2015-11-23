@@ -10,7 +10,5 @@ namespace GangOfFour.AbstractFactory.RealWorld
 
         public abstract void Eat(Herbivore h);
     }
-
-    
     
 }

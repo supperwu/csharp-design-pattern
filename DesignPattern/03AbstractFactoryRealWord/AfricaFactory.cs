@@ -1,5 +1,4 @@
 ﻿
-
 namespace GangOfFour.AbstractFactory.RealWorld
 {
     public class AfricaFactory : ContinentFactory

@@ -10,25 +10,4 @@ namespace GangOfFour.AbstractFactory.RealWorld
         protected Herbivore() { }
 
     }
-
-    /// <summary>
-    /// 非洲牛羚
-    /// </summary>
-    public class Wildebeest : Herbivore
-    {
-        public override string ToString()
-        {
-            return "Wildebeest";
-        }
-    }
-    /// <summary>
-    /// 北美野牛
-    /// </summary>
-    public class Bison : Herbivore
-    {
-        public override string ToString()
-        {
-            return "Bison";
-        }
-    }
 }

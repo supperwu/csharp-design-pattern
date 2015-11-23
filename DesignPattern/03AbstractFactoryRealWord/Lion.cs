@@ -1,5 +1,6 @@
 ﻿
 using System;
+
 namespace GangOfFour.AbstractFactory.RealWorld
 {
     /// <summary>
