@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02FactoryMethodRealWorld", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03AbstractFactory", "03AbstractFactory\03AbstractFactory.csproj", "{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03AbstractFactoryRealWord", "03AbstractFactoryRealWord\03AbstractFactoryRealWord.csproj", "{FBA823E7-EE69-492D-90AC-94FBC36AACCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{620C3D3C-D4BC-495C-AE23-4E5574E9E89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA823E7-EE69-492D-90AC-94FBC36AACCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA823E7-EE69-492D-90AC-94FBC36AACCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA823E7-EE69-492D-90AC-94FBC36AACCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA823E7-EE69-492D-90AC-94FBC36AACCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
