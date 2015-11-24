@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace GangOfFour.Builder
 {
     /// <summary>
@@ -13,8 +8,20 @@ namespace GangOfFour.Builder
     {
         protected Builder() { }
 
+        /// <summary>
+        /// Create part a
+        /// </summary>
         public abstract void BuildPartA();
+
+        /// <summary>
+        /// Create part b
+        /// </summary>
         public abstract void BuildPartB();
+
+        /// <summary>
+        /// provides an interface for retrieving the product
+        /// </summary>
+        /// <returns></returns>
         public abstract Product GetResult();
     }
 }
