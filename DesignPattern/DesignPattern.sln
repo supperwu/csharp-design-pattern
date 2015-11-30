@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06Adapter", "06Adapter\06Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06AdapterRealWorld", "06AdapterRealWorld\06AdapterRealWorld.csproj", "{CA2A864E-63A7-4E22-8E8B-672A8E9FA1DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07Bridge", "07Bridge\07Bridge.csproj", "{6417F822-00FC-43B5-BD89-8E0DBE7C2DA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{CA2A864E-63A7-4E22-8E8B-672A8E9FA1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2A864E-63A7-4E22-8E8B-672A8E9FA1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA2A864E-63A7-4E22-8E8B-672A8E9FA1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6417F822-00FC-43B5-BD89-8E0DBE7C2DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6417F822-00FC-43B5-BD89-8E0DBE7C2DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6417F822-00FC-43B5-BD89-8E0DBE7C2DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6417F822-00FC-43B5-BD89-8E0DBE7C2DA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
